@@ -6,6 +6,12 @@ int main()
 {
     int a, b;
     cin >> a >> b;
-    cout <<(double)a/b << endl;
+    
+    if(b==0){
+        cout << "Error: division by zero" << endl;
+    }else{
+        cout <<(double)a/b << endl;
+    }
+
     return 0;
 }
